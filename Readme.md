@@ -1,4 +1,4 @@
-# XBox 360 Controller driver for Mac OS X
+# Xbox 360 Controller driver for Mac OS X
 
 ## About ##
 

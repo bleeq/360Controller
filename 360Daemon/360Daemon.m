@@ -55,7 +55,7 @@ enum {
 };
 
 NSString *alertStrings[] = {
-    @"You have attached a Microsoft Play & Charge cable for your XBox 360 Wireless Controller. While this cable will allow you to charge your wireless controller, you will require the Microsoft Wireless Gaming Receiver for Windows to use your wireless controller in Mac OS X!",
+    @"You have attached a Microsoft Play & Charge cable for your Xbox 360 Wireless Controller. While this cable will allow you to charge your wireless controller, you will require the Microsoft Wireless Gaming Receiver for Windows to use your wireless controller in Mac OS X!",
 };
 
 static void releaseAlert(void)
@@ -80,7 +80,7 @@ static void ShowAlert(NSInteger index)
 {
     SInt32 error;
     NSArray *checkBoxes = @[NSLocalizedString(CHECK_SHOWAGAIN, nil)];
-    NSDictionary *dictionary = @{(NSString*)kCFUserNotificationAlertHeaderKey: NSLocalizedString(@"XBox 360 Controller Driver", nil),
+    NSDictionary *dictionary = @{(NSString*)kCFUserNotificationAlertHeaderKey: NSLocalizedString(@"Xbox 360 Controller Driver", nil),
                                  (NSString*)kCFUserNotificationAlertMessageKey: NSLocalizedString(alertStrings[index], nil),
                                  (NSString*)kCFUserNotificationCheckBoxTitlesKey: checkBoxes,
                                  (NSString*)kCFUserNotificationIconURLKey: [[NSBundle mainBundle] URLForImageResource:@"Alert"]};
